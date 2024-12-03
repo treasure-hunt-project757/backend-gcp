@@ -58,8 +58,8 @@ env:
   REPOSITORY: backend-gcp-repo
 #  WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.WIF_PROVIDER }}
   WORKLOAD_IDENTITY_PROVIDER: projects/913716591776/locations/global/workloadIdentityPools/github/providers/my-repo
+  SERVICE_ACCOUNT: backend-build-deploy-gcr
 #  SERVICE_ACCOUNT: ${{ secrets.WIF_SERVICE_ACCOUNT }}
-SERVICE_ACCOUNT: backend-build-deploy-gcr
 
 
 jobs:
