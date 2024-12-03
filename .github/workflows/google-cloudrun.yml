@@ -56,10 +56,8 @@ env:
   SERVICE: backend-gcp
   REGION: us-central1
   REPOSITORY: backend-gcp-repo
-#  WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.WIF_PROVIDER }}
-  WORKLOAD_IDENTITY_PROVIDER: projects/913716591776/locations/global/workloadIdentityPools/github/providers/my-repo
-  SERVICE_ACCOUNT: backend-build-deploy-gcr@iucc-treasure-hunt-at-sheba-mc.iam.gserviceaccount.com
-#  SERVICE_ACCOUNT: ${{ secrets.WIF_SERVICE_ACCOUNT }}
+  WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.WIF_PROVIDER }}
+  SERVICE_ACCOUNT: ${{ secrets.WIF_SERVICE_ACCOUNT }}
 
 
 jobs:
