@@ -7,7 +7,7 @@ import sheba.backend.app.entities.MediaTask;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-10-26T14:48:27+0300",
+    date = "2024-12-02T17:57:21+0200",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.7 (Oracle Corporation)"
 )
 @Component
