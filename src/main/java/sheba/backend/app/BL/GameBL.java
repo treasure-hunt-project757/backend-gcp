@@ -86,8 +86,8 @@ public class GameBL {
     }
 
     private String generateGameQRCode(Game game) throws IOException {
-//        String baseUrl = "https://sheba-service-gcp-tm3zus3bzq-uc.a.run.app";
-        String baseUrl = "https://treasure-hunt-player.web.app/";
+//        String baseUrl = "https://treasure-hunt-player.web.app/";
+        String baseUrl = "https://treasure-hunt-player-app.web.app";
 //        String gameApiUrl = baseUrl + Endpoints.PUBLIC_ENDPOINT + "/get-game/" + game.getGameID();
         String gameApiUrl = baseUrl + game.getGameID();
         String fileName = "game-" + game.getGameID() + "-QRCODE-" + System.currentTimeMillis() + ".png";
