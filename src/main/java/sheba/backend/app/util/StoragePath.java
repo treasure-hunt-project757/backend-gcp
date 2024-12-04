@@ -29,9 +29,9 @@ public class StoragePath {
     public static final String GAME_QR = "games_QR";
 
     public static final String MEDIA_TASK_PATH = "media_task";
-    public static final String GAME_QR_IMG = "https://storage.googleapis.com/project-files-storage-clone/images_in_qr/game.png";
+    public static final String GAME_QR_IMG = "https://storage.googleapis.com/treasure-hunt-project-uni-bucket/images_in_qr/game.png";
     public static final String LOC_QR_IMG =
-            "https://storage.googleapis.com/project-files-storage-clone/images_in_qr/location.png";
+            "https://storage.googleapis.com/treasure-hunt-project-uni-bucket/images_in_qr/location.png";
 
 //    public static final String GAME_QR_IMG = "/Users/malakyehia/Desktop/game.jpg";
 //    public static final String LOC_QR_IMG =
